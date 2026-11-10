@@ -401,17 +401,6 @@
       "label": "",
       "due": "",
       "owner": ""
-    },
-    {
-      "id": "wmwaggay79c76",
-      "sec": 0,
-      "num": "1.6",
-      "col": "work",
-      "name": "TEST",
-      "color": "yellow",
-      "label": "",
-      "due": "",
-      "owner": ""
     }
   ],
   "bugs": [
@@ -913,16 +902,6 @@
       "name": "Баг кодировки pdf 786",
       "kind": "bug-add",
       "new": "mid"
-    },
-    {
-      "id": "cmwagggfu0ucc",
-      "date": "02.11.2026",
-      "sec": 0,
-      "tid": "wmwaggay79c76",
-      "ref": "1.6",
-      "name": "TEST",
-      "kind": "add",
-      "new": "work"
     }
   ]
 }
