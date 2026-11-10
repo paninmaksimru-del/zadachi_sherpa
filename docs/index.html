@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="referrer" content="no-referrer"><meta name="robots" content="noindex,nofollow">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; connect-src https://api.github.com; img-src 'self' data:; object-src 'none'; base-uri 'none'; form-action 'none'">
+<title>Задачи Шерпа</title><link rel="stylesheet" href="style.css"></head><body>
+<section class="connection" id="connection"><h1>Задачи Шерпа</h1>
+<p>Таблица и история версий хранятся в репозитории GitHub <b>paninmaksimru-del/zadachi_sherpa</b>.</p>
+<p>Для редактирования создайте <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener noreferrer">Fine-grained token в GitHub</a>: Resource owner — paninmaksimru-del, Only select repositories — zadachi_sherpa, Repository permissions → Contents — Read and write. Просмотр доступен без токена.</p>
+<form id="connect-form"><label for="github-token">Токен GitHub</label><input id="github-token" type="password" autocomplete="off" spellcheck="false" required placeholder="github_pat_…">
+<p>Токен хранится только в памяти этой вкладки и отправляется только в api.github.com. После обновления страницы введите его повторно.</p>
+<button class="btn primary" id="connect" type="submit">Войти для редактирования</button><p id="connection-error" role="alert"></p></form></section>
+<div class="syncbar" id="syncbar" hidden><span id="sync-status" role="status" aria-live="polite"></span><div><button class="btn" id="refresh" type="button">Обновить</button> <button class="btn" id="logout" type="button">Выйти</button></div></div>
+<main class="page" id="page" hidden><header class="head"><div class="brand"><div class="brand-line"><h1>Проект «ИИ-агенты»</h1><span id="report-date"></span></div><nav class="tabs" id="tabs" role="tablist" aria-label="Разделы отчёта"></nav></div><div><span id="total"></span> <button class="btn" id="b-fit" type="button">Вместить на экран</button></div></header><div class="tools" id="tools"></div><div id="view"></div></main>
+<script src="storage.js"></script><script src="app.js"></script><script src="boot.js"></script></body></html>

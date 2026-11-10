@@ -580,6 +580,7 @@ window.addEventListener("resize", () => document.querySelectorAll("textarea.fiel
 function renderTools(note) {
   const tools = document.getElementById("tools");
   if (!repo.ready) { tools.hidden = true; return; }
+  if (!repo.token) { tools.hidden = false; tools.innerHTML = '<button class="btn" id="b-authorize" type="button">Войти для редактирования</button>'; return; }
   tools.hidden = false;
   const hint = "Подзадачи — по стрелке «Подзадачи» внизу карточки (Enter добавляет следующую). Цвет и колонка связаны: синий — «Запланировано», жёлтый — «В работе», зелёный — «Готово». Выберите цвет на карточке, перетащите её за ⠿ или выберите колонку в списке — задача переместится и перекрасится. Красный — отметка проблемы. " +
     "Всё, что вы поменяете, само попадёт во вкладку «Изменения» при сохранении — под датой отчёта, поэтому для новой недели сначала поменяйте дату.";

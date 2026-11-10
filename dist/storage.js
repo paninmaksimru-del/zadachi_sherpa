@@ -7,7 +7,7 @@ class GitHubStore {
   async request(method = "GET", body) {
     const response = await fetch(this.url + (method === "GET" ? "?ref=main" : ""), {
       method, cache: "no-store", redirect: "error",
-      headers: {Accept: "application/vnd.github+json", Authorization: "Bearer " + this.token,
+      headers: {Accept: "application/vnd.github+json", ...(this.token ? {Authorization: "Bearer " + this.token} : {}),
         "X-GitHub-Api-Version": "2022-11-28", ...(body ? {"Content-Type":"application/json"} : {})},
       ...(body ? {body: JSON.stringify(body)} : {})
     });

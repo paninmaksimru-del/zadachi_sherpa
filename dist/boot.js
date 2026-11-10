@@ -8,7 +8,7 @@ function displayData(data) {
   document.getElementById("page").hidden = false;
   document.getElementById("syncbar").hidden = false;
   document.getElementById("connection").hidden = true;
-  render(); setSync("Загружено из приватного GitHub");
+  render(); setSync("Загружено из GitHub");
 }
 document.getElementById("connect-form").addEventListener("submit", async event => {
   event.preventDefault();
@@ -19,7 +19,7 @@ document.getElementById("connect-form").addEventListener("submit", async event =
   button.disabled = true; button.textContent = "Открываю…"; error.textContent = "";
   try { displayData(await repo.load()); }
   catch (err) { repo.disconnect(); error.textContent = err.message; }
-  finally {button.disabled = false; button.textContent = "Открыть таблицу";}
+  finally {button.disabled = false; button.textContent = "Войти для редактирования";}
 });
 document.getElementById("refresh").addEventListener("click", async () => {
   if (repo.saving) return;
@@ -36,4 +36,14 @@ document.getElementById("logout").addEventListener("click", () => {
 });
 window.addEventListener("beforeunload", event => {
   if (draft || repo.saving) {event.preventDefault(); event.returnValue = "";}
+});
+
+document.addEventListener("click", event => {
+  if (event.target.closest("#b-authorize")) {
+    document.getElementById("connection").hidden = false;
+    document.getElementById("github-token").focus();
+  }
+});
+repo.load().then(displayData).catch(() => {
+  document.getElementById("connection-error").textContent = "Не удалось загрузить таблицу. Проверьте соединение или введите токен GitHub.";
 });
