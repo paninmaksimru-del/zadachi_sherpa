@@ -213,12 +213,34 @@
       "owner": ""
     },
     {
+      "id": "wmwagumztaxpl",
+      "sec": 3,
+      "num": "4.13",
+      "col": "work",
+      "name": "Запрос доступ к Qwen3.8-27B test (28073453)",
+      "color": "yellow",
+      "label": "",
+      "due": "",
+      "owner": ""
+    },
+    {
+      "id": "wmwafdg24p5ss",
+      "sec": 3,
+      "num": "4.12",
+      "col": "work",
+      "name": "Подключить LDAP 789",
+      "color": "yellow",
+      "label": "",
+      "due": "",
+      "owner": ""
+    },
+    {
       "id": "wmvun8naxfsyx",
       "sec": 3,
       "num": "4.6",
-      "col": "plan",
+      "col": "work",
       "name": "Сравнение SmartDocs",
-      "color": "blue",
+      "color": "yellow",
       "label": "Тестирование папки \"Аналитика\" в платформе и SmartDocs",
       "due": "до 06.11",
       "owner": ""
@@ -292,17 +314,6 @@
       "num": "4.11",
       "col": "plan",
       "name": "Вывести блок Системных ошибок 787",
-      "color": "blue",
-      "label": "",
-      "due": "",
-      "owner": ""
-    },
-    {
-      "id": "wmwafdg24p5ss",
-      "sec": 3,
-      "num": "4.12",
-      "col": "plan",
-      "name": "Подключить LDAP 789",
       "color": "blue",
       "label": "",
       "due": "",
@@ -701,7 +712,7 @@
       "ref": "4.6",
       "name": "Сравнение SmartDocs",
       "kind": "add",
-      "new": "plan"
+      "new": "work"
     },
     {
       "id": "c34",
@@ -761,7 +772,7 @@
       "ref": "4.12",
       "name": "Подключить LDAP 789",
       "kind": "add",
-      "new": "plan"
+      "new": "work"
     },
     {
       "id": "cmwafegpirv7s",
@@ -902,6 +913,16 @@
       "name": "Баг кодировки pdf 786",
       "kind": "bug-add",
       "new": "mid"
+    },
+    {
+      "id": "cmwagv2czf8st",
+      "date": "02.11.2026",
+      "sec": 3,
+      "tid": "wmwagumztaxpl",
+      "ref": "4.13",
+      "name": "Запрос доступ к Qwen3.8-27B test (28073453)",
+      "kind": "add",
+      "new": "work"
     }
   ]
 }
