@@ -260,44 +260,6 @@
       "owner": ""
     },
     {
-      "id": "wmwaej05l5v3w",
-      "sec": 1,
-      "num": "2.3",
-      "col": "plan",
-      "name": "Доработка блока Документы",
-      "color": "blue",
-      "label": "",
-      "due": "",
-      "owner": "",
-      "subs": [
-        {
-          "id": "smwaejh6xkcb6",
-          "name": "Доработка Тегов 647",
-          "done": false
-        },
-        {
-          "id": "smwael8wn1fpd",
-          "name": "Добавление поля расширение 654",
-          "done": false
-        },
-        {
-          "id": "smwaerf3saqg7",
-          "name": "Доработка ролевой модели тегировая 706",
-          "done": false
-        },
-        {
-          "id": "smwaesmwc1a7c",
-          "name": "Доработка мобильной верстки раздела 720 / 763",
-          "done": false
-        },
-        {
-          "id": "smwaf6hi69o92",
-          "name": "Доработка добавления фильтров 762",
-          "done": false
-        }
-      ]
-    },
-    {
       "id": "wmwaf0431q2yc",
       "sec": 1,
       "num": "2.4",
@@ -428,6 +390,44 @@
       "label": "В разработке. Первая версия для тестов - вторая половина ноября",
       "due": "после 16.11",
       "owner": ""
+    },
+    {
+      "id": "wmwaej05l5v3w",
+      "sec": 1,
+      "num": "2.3",
+      "col": "work",
+      "name": "Доработка блока Документы",
+      "color": "yellow",
+      "label": "",
+      "due": "",
+      "owner": "",
+      "subs": [
+        {
+          "id": "smwaejh6xkcb6",
+          "name": "Доработка Тегов 647",
+          "done": false
+        },
+        {
+          "id": "smwael8wn1fpd",
+          "name": "Добавление поля расширение 654",
+          "done": false
+        },
+        {
+          "id": "smwaerf3saqg7",
+          "name": "Доработка ролевой модели тегировая 706",
+          "done": false
+        },
+        {
+          "id": "smwaesmwc1a7c",
+          "name": "Доработка мобильной верстки раздела 720 / 763",
+          "done": false
+        },
+        {
+          "id": "smwaf6hi69o92",
+          "name": "Доработка добавления фильтров 762",
+          "done": false
+        }
+      ]
     }
   ],
   "bugs": [
@@ -1042,6 +1042,17 @@
       "name": "Организация демо для отдела закупок",
       "kind": "add",
       "new": "done"
+    },
+    {
+      "id": "cmwc70up2vkrj",
+      "date": "11.11.2026",
+      "sec": 1,
+      "tid": "wmwaej05l5v3w",
+      "ref": "2.3",
+      "name": "Доработка блока Документы",
+      "kind": "col",
+      "old": "plan",
+      "new": "work"
     }
   ]
 }
