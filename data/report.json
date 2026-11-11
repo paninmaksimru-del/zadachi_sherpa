@@ -147,17 +147,6 @@
       "owner": ""
     },
     {
-      "id": "wmwagumztaxpl",
-      "sec": 3,
-      "num": "4.13",
-      "col": "work",
-      "name": "Запрос доступ к Qwen3.8-27B test (28073453)",
-      "color": "yellow",
-      "label": "",
-      "due": "",
-      "owner": ""
-    },
-    {
       "id": "wmwafdg24p5ss",
       "sec": 3,
       "num": "4.12",
@@ -377,6 +366,17 @@
       "name": "Организация демо для отдела закупок",
       "color": "green",
       "label": "Провели несколько встреч на 3х<br>- Фонд<br>- Отдел закупок<br>- Шерпа<br><br>Получили замечания и корректировки к работе агентов, внесли изменения в логику их работы",
+      "due": "",
+      "owner": ""
+    },
+    {
+      "id": "wmwagumztaxpl",
+      "sec": 3,
+      "num": "4.13",
+      "col": "done",
+      "name": "Запрос доступ к Qwen3.8-27B test (28073453)",
+      "color": "green",
+      "label": "",
       "due": "",
       "owner": ""
     },
@@ -1069,6 +1069,17 @@
       "name": "Доработка Тегов 647",
       "kind": "add",
       "new": "work"
+    },
+    {
+      "id": "cmwc74fw0ci4r",
+      "date": "11.11.2026",
+      "sec": 3,
+      "tid": "wmwagumztaxpl",
+      "ref": "4.13",
+      "name": "Запрос доступ к Qwen3.8-27B test (28073453)",
+      "kind": "col",
+      "old": "work",
+      "new": "done"
     }
   ]
 }
