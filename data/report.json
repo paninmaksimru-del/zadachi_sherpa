@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "reportDate": "02.11.2026",
+  "reportDate": "11.11.2026",
   "showOwner": false,
   "sections": [
     {
@@ -218,26 +218,20 @@
       "sec": 3,
       "num": "4.9",
       "col": "plan",
-      "name": "Доработка раздела Аудит 640",
-      "color": "blue",
-      "label": "",
-      "due": "",
-      "owner": ""
-    },
-    {
-      "id": "wmwaelvjmlsv8",
-      "sec": 3,
-      "num": "4.10",
-      "col": "plan",
-      "name": "Доработка Аудита",
+      "name": "Доработка раздела Аудит",
       "color": "blue",
       "label": "",
       "due": "",
       "owner": "",
       "subs": [
         {
-          "id": "smwaem0vw4e08",
+          "id": "smwbriwpqkyjc",
           "name": "Добавление поиска по гуиду 673",
+          "done": false
+        },
+        {
+          "id": "smwbrjderoulp",
+          "name": "Доработка фильтров в разделе 640",
           "done": false
         }
       ]
@@ -247,7 +241,7 @@
       "sec": 3,
       "num": "4.11",
       "col": "plan",
-      "name": "Вывести блок Системных ошибок 787",
+      "name": "Вывести раздел Системных ошибок 787",
       "color": "blue",
       "label": "",
       "due": "",
@@ -962,6 +956,61 @@
       "name": "Не работает запись аудио в чат 806",
       "kind": "bug-add",
       "new": "mid"
+    },
+    {
+      "id": "cmwbrk1jsd0w4",
+      "date": "11.11.2026",
+      "sec": 3,
+      "tid": "wmwaec1h5go48",
+      "ref": "4.9",
+      "name": "Доработка раздела Аудит",
+      "kind": "rename",
+      "old": "Доработка раздела Аудит 640",
+      "new": "Доработка раздела Аудит"
+    },
+    {
+      "id": "cmwbrk1jshg3c",
+      "date": "11.11.2026",
+      "sec": 3,
+      "tid": "wmwaec1h5go48",
+      "ref": "4.9",
+      "name": "Доработка раздела Аудит",
+      "sid": "smwbriwpqkyjc",
+      "kind": "sub-add",
+      "new": "Добавление поиска по гуиду 673",
+      "done": false
+    },
+    {
+      "id": "cmwbrk1js4bfb",
+      "date": "11.11.2026",
+      "sec": 3,
+      "tid": "wmwaec1h5go48",
+      "ref": "4.9",
+      "name": "Доработка раздела Аудит",
+      "sid": "smwbrjderoulp",
+      "kind": "sub-add",
+      "new": "Доработка фильтров в разделе 640",
+      "done": false
+    },
+    {
+      "id": "cmwbrk1jsg3n1",
+      "date": "11.11.2026",
+      "sec": 3,
+      "tid": "wmwafbs6on7gc",
+      "ref": "4.11",
+      "name": "Вывести раздел Системных ошибок 787",
+      "kind": "rename",
+      "old": "Вывести блок Системных ошибок 787",
+      "new": "Вывести раздел Системных ошибок 787"
+    },
+    {
+      "id": "cmwbrk1jthrjl",
+      "date": "11.11.2026",
+      "sec": 3,
+      "tid": "wmwaelvjmlsv8",
+      "ref": "4.10",
+      "name": "Доработка Аудита",
+      "kind": "remove"
     }
   ]
 }
