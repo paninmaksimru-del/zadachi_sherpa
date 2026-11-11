@@ -271,6 +271,39 @@
       "owner": ""
     },
     {
+      "id": "wmwaej05l5v3w",
+      "sec": 1,
+      "num": "2.3",
+      "col": "plan",
+      "name": "Доработка блока Документы",
+      "color": "blue",
+      "label": "",
+      "due": "",
+      "owner": "",
+      "subs": [
+        {
+          "id": "smwael8wn1fpd",
+          "name": "Добавление поля расширение 654",
+          "done": false
+        },
+        {
+          "id": "smwaerf3saqg7",
+          "name": "Доработка ролевой модели тегировая 706",
+          "done": false
+        },
+        {
+          "id": "smwaesmwc1a7c",
+          "name": "Доработка мобильной верстки раздела 720 / 763",
+          "done": false
+        },
+        {
+          "id": "smwaf6hi69o92",
+          "name": "Доработка добавления фильтров 762",
+          "done": false
+        }
+      ]
+    },
+    {
       "id": "wmwaes5qwrqad",
       "sec": 0,
       "num": "1.3",
@@ -392,42 +425,15 @@
       "owner": ""
     },
     {
-      "id": "wmwaej05l5v3w",
+      "id": "wmwc71egoae00",
       "sec": 1,
-      "num": "2.3",
+      "num": "2.5",
       "col": "work",
-      "name": "Доработка блока Документы",
+      "name": "Доработка Тегов 647",
       "color": "yellow",
       "label": "",
       "due": "",
-      "owner": "",
-      "subs": [
-        {
-          "id": "smwaejh6xkcb6",
-          "name": "Доработка Тегов 647",
-          "done": false
-        },
-        {
-          "id": "smwael8wn1fpd",
-          "name": "Добавление поля расширение 654",
-          "done": false
-        },
-        {
-          "id": "smwaerf3saqg7",
-          "name": "Доработка ролевой модели тегировая 706",
-          "done": false
-        },
-        {
-          "id": "smwaesmwc1a7c",
-          "name": "Доработка мобильной верстки раздела 720 / 763",
-          "done": false
-        },
-        {
-          "id": "smwaf6hi69o92",
-          "name": "Доработка добавления фильтров 762",
-          "done": false
-        }
-      ]
+      "owner": ""
     }
   ],
   "bugs": [
@@ -1044,14 +1050,24 @@
       "new": "done"
     },
     {
-      "id": "cmwc70up2vkrj",
+      "id": "cmwc71lyc8p5x",
       "date": "11.11.2026",
       "sec": 1,
       "tid": "wmwaej05l5v3w",
       "ref": "2.3",
       "name": "Доработка блока Документы",
-      "kind": "col",
-      "old": "plan",
+      "sid": "smwaejh6xkcb6",
+      "kind": "sub-remove",
+      "old": "Доработка Тегов 647"
+    },
+    {
+      "id": "cmwc71lyc3tjp",
+      "date": "11.11.2026",
+      "sec": 1,
+      "tid": "wmwc71egoae00",
+      "ref": "2.5",
+      "name": "Доработка Тегов 647",
+      "kind": "add",
       "new": "work"
     }
   ]
