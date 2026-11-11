@@ -519,16 +519,6 @@
       "state": "open",
       "task": "все агенты",
       "found": "05.11"
-    },
-    {
-      "id": "bmwbrgjiq8zsg",
-      "sec": 0,
-      "title": "Не работает запись аудио в чат 806",
-      "desc": "",
-      "sev": "mid",
-      "state": "open",
-      "task": "",
-      "found": "11.11"
     }
   ],
   "changes": [
@@ -1011,6 +1001,15 @@
       "ref": "4.10",
       "name": "Доработка Аудита",
       "kind": "remove"
+    },
+    {
+      "id": "cmwbubhx82mst",
+      "date": "11.11.2026",
+      "sec": 0,
+      "tid": "bmwbrgjiq8zsg",
+      "ref": "Баг",
+      "name": "Не работает запись аудио в чат 806",
+      "kind": "bug-remove"
     }
   ]
 }
