@@ -193,18 +193,6 @@
       "owner": ""
     },
     {
-      "id": "w16",
-      "sec": 3,
-      "num": "",
-      "col": "archive",
-      "archived": "02.11",
-      "name": "Задачи от Анастасии Новожиловой",
-      "color": "yellow",
-      "label": "Ссылка на <a href=\"https://docs.google.com/spreadsheets/d/1iqfHA6MBTNP7MuRvvrScWftwdclqea9TIUjtq2od5C4/edit?gid=0#gid=0\" target=\"_blank\" rel=\"noopener noreferrer\"><b>гугл-таблицу</b></a> с задачами",
-      "due": "до 23.10",
-      "owner": ""
-    },
-    {
       "id": "wmwaf0431q2yc",
       "sec": 1,
       "num": "2.4",
@@ -1321,6 +1309,15 @@
       "kind": "bug-sev",
       "old": "mid",
       "new": "high"
+    },
+    {
+      "id": "cmwd8k2cv9lo5",
+      "date": "12.11.2026",
+      "sec": 3,
+      "tid": "w16",
+      "ref": "",
+      "name": "Задачи от Анастасии Новожиловой",
+      "kind": "remove"
     }
   ]
 }
